@@ -1,4 +1,5 @@
 {
 "prefix": "Your bot prefix",
-"dev": "Your discord user ID"
+"dev": "Your discord user ID",
+"color": "Your hex color"
 }
