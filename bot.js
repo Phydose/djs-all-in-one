@@ -29,6 +29,7 @@ client.slashCommands = new Collection()
 client.events = new Collection()
 client.selectMenus = new Collection()
 client.buttonCommands = new Collection()
+client.funcs = require(`${HOME}/Home/CustomFunctions/index`)
 
 const { Handler } = require(`${HOME}/Home/Classes/Handler`)
 Handler.loadCommands(client) // COMMAND HANDLER
