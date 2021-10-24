@@ -11,7 +11,7 @@ module.exports = {
                 const TheOno = new Discord.MessageEmbed()
                     .setTitle("❌╎ Reload Error")
                     .setDescription(`\`\`\`${err.stack}\`\`\``)
-                    .setColor("ff0000")
+                    .setColor("CC0000")
                     .setFooter(client.user.username, client.user.displayAvatarURL({
                         dynamic: true
                     }))
@@ -32,9 +32,9 @@ module.exports = {
 
         const TheEnd = new Discord.MessageEmbed()
             .setTitle('Reload Success!')
-            .setColor('GREEN')
+            .setColor(client.config.color)
             .setTimestamp()
-            .setFooter(client.user.username, client.user.displayAvatarURL({
+            .setFooter(message.author.username, client.user.displayAvatarURL({
                 dynamic: true
             }))
         message.reply({
