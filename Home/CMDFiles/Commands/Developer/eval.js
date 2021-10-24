@@ -26,7 +26,7 @@ module.exports = {
    } catch (error){
        let embed1 = new Discord.MessageEmbed()
        .setTitle('Evaluation Error!')
-       .setColor("RANDOM")
+       .setColor("CC0000")
        .addField("❌╎ Error",`${error}`)
        message.channel.send({embeds: [embed1], components: [row] })
    }
